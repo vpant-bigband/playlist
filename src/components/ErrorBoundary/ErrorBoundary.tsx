@@ -26,7 +26,6 @@ class ErrorBoundary extends React.Component<IProps, IState> {
   render() {
     const { error } = this.state;
     const { children } = this.props;
-    console.log('error', error);
     if (error) {
       return (
         <div data-testid="error-boundary-wrapper">

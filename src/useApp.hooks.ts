@@ -28,7 +28,6 @@ const useApp = (keyword: string): [VideoCardListProps, boolean, () => void, Busi
 
   const onScrollEndHandler = useCallback(() => {
     const { nextPageToken } = videoListData;
-    console.log('nextPageToken ', nextPageToken, isLoading);
     if (nextPageToken && !isLoading) {
       setPageToken(nextPageToken);
     }
@@ -50,7 +49,6 @@ const useApp = (keyword: string): [VideoCardListProps, boolean, () => void, Busi
         });
         searchText.current = keyword;
       }).catch((error: BusinessException) => { 
-        console.log('error ', error);
         errorInfo.current = error;
       }).finally(() => setLoading(false));
     }

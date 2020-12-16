@@ -18,7 +18,6 @@ window.IntersectionObserver = mockIntersectionObserver;
 // @ts-ignore
 window.isIntesecting = true
 
-//@ts-ignore
 const renderSetup = () => render(<Theme><VideoCardList data={VideoCardListMocks}/></Theme>);
 describe('VideoCardList component test suite', () => {
   beforeEach(() => {
@@ -32,7 +31,6 @@ describe('VideoCardList component test suite', () => {
     // global.scrollTo(0, 100);
     const { getAllByTestId, findByTestId } = renderSetup();
     const scrollableListView = await findByTestId('scrollable-list-view');
-    console.log(scrollableListView.innerHTML);
     const videoCards = getAllByTestId('video-card-wrapper');
     expect(videoCards).toBeDefined();
   });

@@ -21,6 +21,7 @@ window.IntersectionObserver = mockIntersectionObserver;
 
 // @ts-ignore
 window.isIntesecting = true
+
 const renderSetup = () => render(<Theme><App /></Theme>);
 
 const onScrollEndHandler = jest.fn();
@@ -31,20 +32,11 @@ const onScrollEndHandler = jest.fn();
 describe('App test suite', () => {
 
   beforeEach(() => {
-     // @ts-ignore
-     fetch.mockResponse(JSON.stringify(VideoCardListMock));
+    //@ts-ignore
+    fetch.resetMocks();
   });
   it('should match snapshot', () => {
     const { container } = renderSetup();
     expect(container).toMatchSnapshot();
-  });
-
-  it('should ', async () => {
-    const { result, waitForValueToChange } = renderHook(() => useApp('music'));
-    await waitForValueToChange(() => {
-      return result.current[0];
-    })
-    const { debug } = renderSetup();
-    console.log(debug());
   });
 });
