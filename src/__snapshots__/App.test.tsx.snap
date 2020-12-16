@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App test suite should match snapshot 1`] = `
+<div>
+  <div
+    class="css-nd3dh8"
+  >
+    <div
+      class="css-yn2c7i"
+      font-size="1,2,3,4"
+    >
+      <input
+        class="css-19n93a3"
+        placeholder="Search for videos"
+      />
+      <span
+        class="css-ntsb59"
+        width="20%,,10%,12%,8%"
+      >
+        <svg
+          data-testid="magnify-glass-icon"
+          height="40"
+          viewBox="0 0 16 16"
+          width="40"
+        >
+          <path
+            d="M14.23437,15.10449l-3.2539-3.25488a6.13908,6.13908,0,1,1,1.63574-1.85352c-.05859.10156-.11816.19922-.17969.29492l-.63086-.40625c.05567-.08593.10938-.17383.16016-.26269a5.406,5.406,0,1,0-1.19922,1.43945.37776.37776,0,0,1,.50781.02051l3.49121,3.49121Z"
+            fill="#fff"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <main />
+</div>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScrollableListView test suite should be match snapshot 1`] = `
+<div>
+  <ul
+    class="css-jdcg90"
+    data-testid="scrollable-list-view"
+  >
+    <div
+      class="css-cphitw"
+      height="0"
+    />
+    <div
+      class="css-cphitw"
+      height="0"
+    />
+    <div
+      class="css-cphitw"
+      height="0"
+    />
+    <div
+      class="css-cphitw"
+      height="0"
+    />
+    <div
+      class="css-cphitw"
+      height="0"
+    />
+    <div
+      class="css-cphitw"
+      height="0"
+    />
+    <div
+      class="css-cphitw"
+      height="0"
+    />
+    <div
+      class="css-cphitw"
+      height="0"
+    />
+    <div
+      class="css-cphitw"
+      height="0"
+    />
+    <li
+      data-testid="load-more-element"
+    />
+  </ul>
+</div>
+`;

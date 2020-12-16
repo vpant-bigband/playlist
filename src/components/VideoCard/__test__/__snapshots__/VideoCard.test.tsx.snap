@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoCard Component test suite should match snapshot 1`] = `
+<div>
+  <div
+    class="css-bj2njj"
+    data-testid="video-card-wrapper"
+  >
+    <img
+      class="css-1u6w3ei"
+      data-testid="video-card-image"
+      height="360"
+      src="https://i.ytimg.com/vi/mFoNq5LHaNg/hqdefault_live.jpg"
+      width="480"
+    />
+    <div
+      class="css-ng8x8e"
+    >
+      <span
+        class="css-15u1n5f"
+        data-testid="video-card-title"
+        font-size="1,2,4"
+      >
+        New Hindi Song 2020 December 💖 Top Bollywood Romantic Love Songs 2020 💖 Best Indian Songs 2020
+      </span>
+      <span
+        class="css-5zodk7"
+        color="#0E5AA7"
+        data-testid="video-card-channel-title"
+        display="none,none,flex"
+        font-size="1,2"
+      >
+        Bollywood Hits Songs
+      </span>
+      <span
+        class="css-xb8gpa"
+        data-testid="video-card-description"
+        display="none,none,flex"
+        font-size="1,2,3"
+      >
+        New Hindi Song 2020 December Top Bollywood Romantic Love Songs 2020 Best Indian Songs 2020 ...
+      </span>
+    </div>
+  </div>
+</div>
+`;
