@@ -1,5 +1,4 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { useInView } from 'react-intersection-observer';
 
 import { ScrollableListViewWrapper, RowItemWrapper } from './ScrollableListView.styes';
 import { IScrollableListView } from './ScrollableListView.inteface';

@@ -9,7 +9,6 @@ const App: React.FunctionComponent = () => {
   const [keyword, setKeyword] = useState<string>('');
   const onSearchIconClick = useCallback((searchText) => setKeyword(searchText), []);  
   const [videoCardListData, isLoading, onScrollEndHandler, errorInfo] = useApp(keyword);
-  // console.log('videoCardListData ', videoCardListData);
   return (
     <>
       <Header onSearchIconClick={onSearchIconClick}/>

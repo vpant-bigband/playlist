@@ -28,9 +28,7 @@ describe('VideoCardList component test suite', () => {
     expect(container).toMatchSnapshot();
   });
   it('should render with video card component', async () => {
-    // global.scrollTo(0, 100);
     const { getAllByTestId, findByTestId } = renderSetup();
-    const scrollableListView = await findByTestId('scrollable-list-view');
     const videoCards = getAllByTestId('video-card-wrapper');
     expect(videoCards).toBeDefined();
   });
